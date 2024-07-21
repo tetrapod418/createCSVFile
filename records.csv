@@ -1,0 +1,7 @@
+タスク,内容,期限,担当者
+当日SNS投稿,<div><div>{title}</div><div>{connpass}</div><div>{eventdate} 17:00 - 18:00</div></div>,{eventdate},user1
+配信設定,<div><div>{title}</div><div>{connpass}</div><div>{eventdate} 17:00 - 18:00</div></div>,{preparelimit},user2
+データダウンロードとチェック,<div>データURL<br>共有され次第反映</div>,{preparelimit}
+動画掲載,<div><div>{title}</div><div>{connpass}</div><div>{eventdate} 17:00 - 18:00</div></div>,{postproc},user2
+見守りスケジュール登録,<div><div>{title}</div><div>{connpass}</div><div>{eventdate} 16:50 - 18:00に配信見守りスケジュール登録をする</div></div>,{preparelimit},user2
+配信設定レビュー依頼,<div><div>レビュー依頼をする</div></div>,{preparelimit},user2
