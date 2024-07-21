@@ -104,7 +104,7 @@ func setParameters(str, title, connpass, eventdate, preparelimit, postproc strin
 func createNewTaskCSV(str, resultpath string){
 	outputpath := resultpath
 	// 出力パスに拡張子があれば、そのまま。拡張子がなければ、".csv"を付加する
-	if( !strings.HasSuffix(resultpath, ".csv") ){
+	if !strings.HasSuffix(resultpath, ".csv") {
 		outputpath = fmt.Sprintf("./%s.csv", resultpath)
 	}
 
