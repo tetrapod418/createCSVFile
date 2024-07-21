@@ -130,5 +130,4 @@ func createNewTaskCSV(str, resultpath string){
 		return
 	}
 	fmt.Printf("write %d bytes\n", count)
-	fmt.Println(str)
 }
